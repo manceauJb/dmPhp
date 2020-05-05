@@ -1,0 +1,197 @@
+@import url('http://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400italic,400');
+
+
+body{
+	font-family: 'Open Sans', Calibri, Helvetica, Arial, sans-serif;
+	color: #595a5b;
+}
+
+a{
+	font-family: 'Open Sans', Calibri, Helvetica, Arial, sans-serif;
+	color: #00374f;
+	font-weight: bold;
+}
+
+.info{
+	color: white;
+}
+
+h1, h2, h3{
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+	color: #00374f;
+}
+
+
+body{
+	margin: 0;
+	padding-top: 36px;
+}
+
+
+.feedback {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	background: rgb(103, 170, 198);
+	border-radius: 1em;
+	margin: 0 auto;
+	max-width: 90%;
+	padding: .5em;
+}
+
+nav{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	margin:0;
+}
+
+.menu{
+	margin: 0;
+	padding-top: 5px;
+	height: 36px;
+	background-color: rgb(0, 55, 79);
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li{
+	padding-top: 10px;
+}
+
+.menu li a{
+
+	color: white;
+	text-decoration: none;
+	padding-top: 10px;
+	height: 30px;
+	margin-top:-5px;
+
+}
+
+.menu li:last-child a{
+	border: none;
+}
+
+
+.menu a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+
+main {
+	padding: 20px;
+	background-color: rgba(103, 170, 198, 0.20);
+	min-height: 45em;
+	margin-left: auto;
+}
+
+img {
+	max-width: 100%;
+	min-width: 35em;
+}
+
+article {
+	float: left;
+	padding:auto;
+	margin-left: 10%;
+	margin-top:10%;
+}
+
+figure {
+	float: right;
+	text-align: center;
+	box-shadow: 0 0 1px 1px black;
+	padding: .5em;
+	max-width: 45%;
+	margin-right: 10%;
+}
+
+.showForm {
+	clear: both;
+	margin-left: 10%;
+}
+
+.modif{
+	float: left;
+	padding: auto;
+	margin-left: 2%;
+}
+
+.middle{
+	padding-left: auto;
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 100%;
+	text-align: center;
+}
+
+.middle ul{
+	text-align: left;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.middle ul ul{
+	padding-left: 6%;
+}
+
+
+.middle .liste, .liste li, .manage ul{
+	text-align: center;
+	list-style-type: none;
+}
+
+.liste li ul li{
+	margin-left: 18%;
+}
+
+.liste a, .manage a{
+	text-decoration: none;
+}
+
+.liste h2{
+	text-decoration: underline;
+}
+
+.liste a:hover, .manage a:hover{
+	text-decoration: underline;
+}
+
+footer {
+	clear: both;
+	background-color: #00374f;
+	padding: 1% 0;
+	text-align: center;
+}
+
+footer h3,footer h5{
+	font-weight: normal;
+	color: white;
+} 
+
+@media only screen and (max-width: 1360px) {
+
+
+	.modif,figure,article{
+		float: none;
+	}
+
+	figure{
+		text-align: center;
+		width: 100%;
+		padding-left: 25%;
+		padding-right: 20%;
+		box-shadow: none;
+	}
+	img{
+		min-width: 100%;
+		max-width: 100%;
+		width: 100%;
+	}
+}

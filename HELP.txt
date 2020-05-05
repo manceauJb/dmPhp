@@ -1,0 +1,4 @@
+Si jamais la BD ne ce charge pas, voici un DUMP des tables que j'utilise pour mon site.
+
+La BD est charger dans les fichiers src/model/MotoStorageMySQL.php et src/acc/AccountStorageMySql.php.
+Pour modifier l'accès à une base de donnée il faut modifier les méthodes de chargerbd() dans chacune de ses classes.
